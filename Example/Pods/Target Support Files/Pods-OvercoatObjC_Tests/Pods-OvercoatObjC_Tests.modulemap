@@ -1,0 +1,6 @@
+framework module Pods_OvercoatObjC_Tests {
+  umbrella header "Pods-OvercoatObjC_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
