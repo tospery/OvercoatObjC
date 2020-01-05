@@ -1,4 +1,4 @@
-// OVCHTTPSessionManager+ReactiveCocoa.m
+// OVCHTTPSessionManager+Reactive.m
 //
 // Copyright (c) 2013-2016 Overcoat Team
 //
@@ -20,10 +20,10 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import "OVCHTTPSessionManager+ReactiveObjC.h"
+#import "OVCHTTPSessionManager+Reactive.h"
 #import <ReactiveObjC/ReactiveObjC.h>
 
-@implementation OVCHTTPSessionManager (ReactiveObjC)
+@implementation OVCHTTPSessionManager (Reactive)
 
 - (RACSignal *)rac_GET:(NSString *)URLString parameters:(NSDictionary *)parameters {
     return [[RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OvercoatObjC'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Overcoat is a small but powerful library that makes creating REST clients simple and fun.'
 
 # This description is used to generate tags and improve search results.

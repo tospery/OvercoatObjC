@@ -1,4 +1,4 @@
-// Overcoat+ReactiveCocoa.h
+// OvercoatObjC.h
 //
 // Copyright (c) 2013-2016 Overcoat Team
 //
@@ -20,4 +20,11 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import "OVCHTTPSessionManager+ReactiveObjC.h"
+#import "OVCUtilities.h"
+#import "OVCResponse.h"
+#import "OVCURLMatcher.h"
+#import "OVCModelResponseSerializer.h"
+#import "NSError+OVCResponse.h"
+#import "NSDictionary+Overcoat.h"
+#import "OVCHTTPSessionManager.h"
+#import "OVCHTTPSessionManager+Reactive.h"

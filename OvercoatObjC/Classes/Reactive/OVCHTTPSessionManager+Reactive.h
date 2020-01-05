@@ -1,4 +1,4 @@
-// OVCHTTPSessionManager+ReactiveCocoa.h
+// OVCHTTPSessionManager+Reactive.h
 //
 // Copyright (c) 2013-2016 Overcoat Team
 //
@@ -27,7 +27,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface OVCHTTPSessionManager (ReactiveObjC)
+@interface OVCHTTPSessionManager (Reactive)
 
 /**
  Enqueues a `GET` request.
